@@ -29,7 +29,7 @@ class Menu extends Phaser.Scene{
         let centerY = game.config.height/2;
         let textSpacer = 64;
         this.add.text(centerX, centerY - textSpacer, 'ROCKET PATROL', menuConfig).setOrigin(0.5);
-        this.add.text(centerX, centerY, 'Controls are in the readme', menuConfig).setOrigin(0.5);
+        this.add.text(centerX, centerY, 'Controls are in the readme', menuConfig).setOrigin(0.5); //comment
         menuConfig.backgroundColor = '#00FF00';
         menuConfig.color = '#000';
         this.add.text(centerX, centerY + textSpacer, 'Press ← for 1P, press → for 2P', menuConfig).setOrigin(0.5);
